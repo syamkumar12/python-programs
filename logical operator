@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+result = a and b
+print(f"{a} and {b}: {result}")
+result = a or b
+print(f"{a} or {b}: {result}")
+result = not a
+print(f"not {a}: {result}")
+result = not b
+print(f"not {b}: {result}")
